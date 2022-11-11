@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block{
+            display: block;
+            width: 400px;
+            height: 400px;
+            background-color: brown;
+        }
+        .b2 div{
+            display: inline;
+            background-color: blue;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            width: 200px;
+            height: 200px;
+        }
+        .b2{
+            background-color: aqua;
+            width: 500px;
+            height: 500px;
+        }
+        .b3{
+            width: 100%;
+            height: 500px;
+            background-color: darkgoldenrod;
+        }
+        .b3 div{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+
+        }
+        .parent{
+            background-color: red;
+            width: 100%;
+            height: 600px;
+        }
+        .parent div{
+            display: inline-block;
+            height: 430px;
+            width: 420px;
+            background-color: blue;
+
+        }
+     
+        .father1 div{
+            position: relative;
+            margin-top: 10px;
+            left: 5px;
+            width: 200px;
+            display: inline-block;
+            height: 200px;
+            background-color: green;
+        }
+        .father2 div{
+            position: relative;
+            margin-top: 10px;
+            left: 5px;
+            width: 200px;
+            display: inline-block;
+            height: 200px;
+            background-color: green;
+        }
+        .father3 div{
+            position: relative;
+            margin-top: 10px;
+            left: 5px;
+            width: 200px;
+            display: inline-block;
+            height: 200px;
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- display property -->
+    <div class="block">i am block</div><br>
+    <div class="b2">
+        <div>About</div>
+        <div>home</div>
+        <div>contact</div>
+        <div>data</div>
+        <div>services</div>
+        <div>pro</div>
+    </div>
+    <br>
+    <div class="b3">
+        <div>animal</div>
+        <div>festival</div>
+        <div>cow</div>
+        <div>boys</div>
+        <div>vegetables</div>
+        <div>animal</div>
+        <div>festival</div>
+        <div>cow</div>
+        <div>boys</div>
+        <div>vegetables</div>
+        <div>animal</div>
+        <div>festival</div>
+        <div>cow</div>
+        <div>boys</div>
+        <div>vegetables</div>
+        <div>animal</div>
+        <div>festival</div>
+        <div>cow</div>
+        <div>boys</div>
+        <div>vegetables</div>
+        <div>animal</div>
+        <div>festival</div>
+        <div>cow</div>
+        <div>boys</div>
+        <div>vegetables</div>
+    </div><br>
+    <div class="parent">
+        <div class="father1">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+        <div class="father2">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+        <div class="father3">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+    </div>
+
+</body>
+</html>
